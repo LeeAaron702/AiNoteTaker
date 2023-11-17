@@ -1,9 +1,9 @@
-import { Metadata } from "Next"
+import { Metadata } from "Next";
 
 export const metadata: Metadata = {
-    title:"NoteChat - Notes"
-}
+  title: "NotionLite - Notes",
+};
 
 export default function NotesPage() {
-    return <div>Here will be your notes</div>
+  return <div>Here will be your notes</div>;
 }

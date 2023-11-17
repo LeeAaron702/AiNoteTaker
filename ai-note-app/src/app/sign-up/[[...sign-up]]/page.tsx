@@ -1,9 +1,9 @@
 import { SignUp } from "@clerk/nextjs";
-import { Metadata } from "Next"
+import { Metadata } from "next"
 
 
 export const metadata: Metadata = {
-    title: "NoteChat - Sign Up"
+    title: "NotionLite - Sign Up"
 }
 
 export default function SignUpPage() {
