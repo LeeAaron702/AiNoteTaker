@@ -3,7 +3,7 @@ AI chatbot with Next.js 14, the ChatGPT API, vector embeddings, Pinecone, Tailwi
 npx create-next-app@latest
 npm install openai ai prisma @prisma/client @pinecone-database/pinecone @clerk/nextjs @clerk/themes next-themes prettier eslint-config-prettier eslint-config-prettier prettier-plugin-tailwindcss
 npx shadcn-ui@latest init                                                                                     
-
+npx prisma init
 openai 
 
 vercel ai package sdk.vercel.ai   
@@ -21,4 +21,6 @@ eslint
 
 https://ui.shadcn.com/ component library being used 
 this doesnt have to be installed as a npm package, you copy paste the components into the project. 
+
+mongodb atlas we are using this for the notes 
 
