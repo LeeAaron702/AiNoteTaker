@@ -4,6 +4,8 @@ npx create-next-app@latest
 npm install openai ai prisma @prisma/client @pinecone-database/pinecone @clerk/nextjs @clerk/themes next-themes prettier eslint-config-prettier eslint-config-prettier prettier-plugin-tailwindcss
 npx shadcn-ui@latest init                                                                                     
 npx prisma init
+
+
 openai 
 
 vercel ai package sdk.vercel.ai   
@@ -11,6 +13,7 @@ vercel ai package sdk.vercel.ai
 prisma is orm its how to interact with mongo db database
 
 pinecode is the database that stores the vector embeddings - this is long term memory 
+    vector embedding is where we turn a note or human readable text into an array of numbers with 1536 numbers in it and these numbers define the position in a multidimensal space. The numbers in the array contain the meaning of the text. Similar sentences/notes will send up near each other in this space, whereas completly different notes will be placed away from those similar vectors, this allows us to query these vector embedding by their meaning so if we send a request to question the chatbot we will first search for the notes that are close in their vectors(the array of numbers for the chat question), and then notes that have similar vectors - only those will be sent to chatgpt
 
 clerk is auth 
 
