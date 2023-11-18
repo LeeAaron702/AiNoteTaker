@@ -9,6 +9,7 @@ npx prisma init
 openai 
 
 vercel ai package sdk.vercel.ai   
+vercel ai solves 2 packages, it manages the chat messages and it helps us implement the response streaming. 
 
 prisma is orm its how to interact with mongo db database
 
